@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Shabayek Des</string>
+    <string name="toast">toast</string>
+    <string name="intent">intent</string>
+    <string name="dialog">dialog</string>
+    <string name="listv">list view</string>
+    <string name="spn">spinner</string>
+    <string name="ent_name">Enter your name</string>
+    <string name="btn_clear">clear</string>
+    <string name="fname">First name</string>
+    <string name="lname">Last name</string>
+    <string name="country">Country</string>
+    <string name="birth_date">Birth Date</string>
+    <string name="go">go</string>
+    <string name="back">back</string>
+</resources>
