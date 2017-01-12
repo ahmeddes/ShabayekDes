@@ -35,12 +35,19 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 break;
             }
+            case R.id.btn_spn:
+            {
+                intent = new Intent(this,SpinnerActivity.class);
+                startActivity(intent);
+                break;
+            }
             case R.id.btn_listv:
             {
                 intent = new Intent(this,TopMoviesActivity.class);
                 startActivity(intent);
                 break;
             }
+
         }
 
     }

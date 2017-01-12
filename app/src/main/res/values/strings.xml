@@ -13,4 +13,9 @@
     <string name="birth_date">Birth Date</string>
     <string name="go">go</string>
     <string name="back">back</string>
+    <string name="btn_back">Back</string>
+    <string name="title_activity_spinner">SpinnerActivity</string>
+    <string name="Ex_one">Example one</string>
+    <string name="ex_one">Example one</string>
+    <string name="btn_next">Next</string>
 </resources>

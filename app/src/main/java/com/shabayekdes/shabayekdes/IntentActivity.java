@@ -33,4 +33,8 @@ EditText fname,lname,country,ddate,mdate,ydate;
         intent.putExtra("register",register);
         startActivity(intent);
     }
+    public void btnBack(View view) {
+        Intent intent = new Intent(this,MainActivity.class);
+        startActivity(intent);
+    }
 }

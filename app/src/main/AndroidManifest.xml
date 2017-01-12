@@ -19,7 +19,8 @@
         <activity android:name=".IntentActivity" />
         <activity android:name=".IdActivity" />
         <activity android:name=".TopMoviesActivity" />
-        <activity android:name=".SingleMovieActivity"></activity>
+        <activity android:name=".SingleMovieActivity" />
+        <activity android:name=".SpinnerActivity"></activity>
     </application>
 
 </manifest>

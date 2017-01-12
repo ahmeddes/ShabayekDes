@@ -1,6 +1,7 @@
 package com.shabayekdes.shabayekdes;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -39,5 +40,10 @@ public class DialogActivity extends AppCompatActivity {
                .show();
 
 
+    }
+
+    public void btnBack(View view) {
+        Intent intent = new Intent(this,MainActivity.class);
+        startActivity(intent);
     }
 }
