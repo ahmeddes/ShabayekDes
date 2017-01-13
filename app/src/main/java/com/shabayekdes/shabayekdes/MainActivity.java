@@ -53,6 +53,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 break;
             }
+            case R.id.btn_shared:
+            {
+                intent = new Intent(this,SharedActivity.class);
+                startActivity(intent);
+                break;
+            }
 
         }
 
