@@ -46,6 +46,13 @@
         android:id="@+id/btn_listv"
         android:onClick="btnClick"
         android:layout_gravity="center"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/webv"
+        android:id="@+id/btn_webv"
+        android:onClick="btnClick"
+        android:layout_gravity="center"/>
 
 
 </LinearLayout>

@@ -47,6 +47,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 break;
             }
+            case R.id.btn_webv:
+            {
+                intent = new Intent(this,WebViewActivity.class);
+                startActivity(intent);
+                break;
+            }
 
         }
 

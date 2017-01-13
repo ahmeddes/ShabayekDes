@@ -18,4 +18,5 @@
     <string name="Ex_one">Example one</string>
     <string name="ex_one">Example one</string>
     <string name="btn_next">Next</string>
+    <string name="webv">WebView</string>
 </resources>
