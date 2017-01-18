@@ -59,6 +59,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 break;
             }
+            case R.id.btn_notify:
+            {
+                intent = new Intent(this,NotifyActivity.class);
+                startActivity(intent);
+                break;
+            }
 
         }
 

@@ -24,7 +24,8 @@
         <activity android:name=".SingleMovieActivity" />
         <activity android:name=".SpinnerActivity" />
         <activity android:name=".WebViewActivity" />
-        <activity android:name=".SharedActivity"></activity>
+        <activity android:name=".SharedActivity" />
+        <activity android:name=".NotifyActivity"></activity>
     </application>
 
 </manifest>
