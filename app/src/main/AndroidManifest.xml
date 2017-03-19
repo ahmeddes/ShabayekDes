@@ -25,7 +25,8 @@
         <activity android:name=".SpinnerActivity" />
         <activity android:name=".WebViewActivity" />
         <activity android:name=".SharedActivity" />
-        <activity android:name=".NotifyActivity"></activity>
+        <activity android:name=".NotifyActivity" />
+        <activity android:name=".SqlDatabase"></activity>
     </application>
 
 </manifest>

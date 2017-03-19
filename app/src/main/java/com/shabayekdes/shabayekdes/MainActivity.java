@@ -78,6 +78,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 break;
             }
+            case R.id.btn_sqlitedb:
+            {
+                intent = new Intent(this,SqlDatabase.class);
+                startActivity(intent);
+                break;
+            }
 
         }
 

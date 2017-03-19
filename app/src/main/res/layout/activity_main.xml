@@ -67,6 +67,14 @@
         android:id="@+id/btn_notify"
         android:onClick="btnClick"
         android:layout_gravity="center"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SQLite Database"
+        android:id="@+id/btn_sqlitedb"
+        android:onClick="btnClick"
+        android:layout_gravity="center"/>
+
 
 
 </LinearLayout>
