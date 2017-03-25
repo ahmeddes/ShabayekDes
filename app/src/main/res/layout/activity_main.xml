@@ -74,6 +74,13 @@
         android:id="@+id/btn_sqlitedb"
         android:onClick="btnClick"
         android:layout_gravity="center"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Json File"
+        android:id="@+id/btn_json"
+        android:onClick="btnClick"
+        android:layout_gravity="center"/>
 
 
 

@@ -66,7 +66,7 @@ public class Dbconnection extends SQLiteOpenHelper{
         res.moveToFirst();
         while (res.isAfterLast() == false){
             arrayList.add(res.getString(res.getColumnIndex("id")) + ")" +
-                        res.getString(res.getColumnIndex(COL_FNAME)) + " : " +
+                        res.getString(res.getColumnIndex(COL_FNAME)) + " " +
                         res.getString(res.getColumnIndex(COL_LNAME)) + " : " +
                         res.getString(res.getColumnIndex(COL_AGE)) + " : " +
                         res.getString(res.getColumnIndex(COL_PHONE)));

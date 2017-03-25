@@ -84,6 +84,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 break;
             }
+            case R.id.btn_json:
+            {
+                intent = new Intent(this,JsonActivity.class);
+                startActivity(intent);
+                break;
+            }
 
         }
 

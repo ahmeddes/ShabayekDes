@@ -26,7 +26,8 @@
         <activity android:name=".WebViewActivity" />
         <activity android:name=".SharedActivity" />
         <activity android:name=".NotifyActivity" />
-        <activity android:name=".SqlDatabase"></activity>
+        <activity android:name=".SqlDatabase" />
+        <activity android:name=".JsonActivity"></activity>
     </application>
 
 </manifest>
